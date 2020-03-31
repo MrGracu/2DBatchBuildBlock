@@ -3,9 +3,8 @@ REM +-----------------------------------------------------------+
 REM | Copyright ?(c) 2017 by Gracjan Mika. All rights reserved. |
 REM +-----------------------------------------------------------+
 color 0A
-mode con cols=37 lines=26
+mode con cols=37 lines=24
 title Made by Gracjan Mika
-echo.
 echo.
 echo.
 echo.
@@ -16,12 +15,14 @@ echo =====================================
 echo ))))))))))) Made by Gracu (((((((((((
 echo =====================================
 echo.
+echo                v2.2
+echo.
 echo  Copyright (c) 2017 by Gracjan Mika.
 echo         All rights reserved.        
 echo.
 ping localhost -n 2.0>nul
 title 2DBatchBuildBlock
-mode con cols=53 lines=25
+mode con cols=53 lines=24
 
 :nowe
 for /l %%g in (0,1,319) do set b%%g= 
@@ -78,7 +79,6 @@ echo   บ   Widok: %twarztxt% บ   บ  x - Wyjscie z programu บ
 echo   บ Klocek: %klocekiko% [%autoikonaak%/%maxikonek%]บ   บ  c - Zacznij od nowa    บ
 echo   ศออออออออออออออออออผ   ศอออออออออออออออออออออออออผ
 echo.
-echo                   Version: 2.1
 choice /c awsdxchujklgy >nul
 :controls
 if %errorlevel%==1 goto ruchlewo
