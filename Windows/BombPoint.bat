@@ -3,7 +3,7 @@ REM +-----------------------------------------------------------+
 REM | Copyright ?(c) 2017 by Gracjan Mika. All rights reserved. |
 REM +-----------------------------------------------------------+
 color 0A
-mode con cols=37 lines=26
+mode con cols=37 lines=27
 title Made by Gracjan Mika
 echo.
 echo.
@@ -15,6 +15,8 @@ echo.
 echo =====================================
 echo ))))))))))) Made by Gracu (((((((((((
 echo =====================================
+echo.
+echo                v9.2
 echo.
 echo  Copyright (c) 2017 by Gracjan Mika.
 echo         All rights reserved.        
