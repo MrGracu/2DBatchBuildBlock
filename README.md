@@ -7,7 +7,7 @@
   If there is a problem with the display of characters (they do not look like the pictures below), it may be enough to change the font in the command line settings to "**Raster Fonts**".
   
 ## Works on systems
-- Windows 7 or later.
+- Windows Vista or later
 
 ## Gallery
 
